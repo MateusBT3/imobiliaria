@@ -1,0 +1,39 @@
+/* HEADER */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #D06A45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        padding-left:30px;
+    }
+    div{
+        padding-right: 100px;
+    }
+    a{
+        padding-right: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: large;
+    }
+    a:hover{
+        color: black;
+        transition: 0.5s;
+    }
+}
+
+/* Home */
+
+.textoCentro{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
