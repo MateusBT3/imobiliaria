@@ -1,39 +1,179 @@
 /* HEADER */
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+}
+
+body {
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background-color: #D06A45;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img{
-        padding-left:30px;
+
+    img {
+        padding-left: 30px;
     }
-    div{
+
+    div {
         padding-right: 100px;
     }
-    a{
-        padding-right: 10px;
+
+    a {
+        padding-left: 50px;
         color: white;
         text-decoration: none;
         font-size: large;
+        font-size: larger;
     }
-    a:hover{
+
+    a:hover {
         color: black;
         transition: 0.5s;
     }
 }
 
 /* Home */
+.um{
+    background-image: url(img/casaprincipal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: calc(100vh - 69.36px);
+}
 
-.textoCentro{
-    width: 500px;
+main{ 
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding-top: calc(40vh - 69.36px);
+    
+}   
+.main{
+    background-color: rgba(0, 0, 0, 0.37);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    width: 30%;
+    border-radius: 30px;
+}
+
+.bg-orange {
+    background-color: #F27D52;
+    color: white;
+    border-radius: 10px;
+}
+
+.bg-orange:hover {
+    background-color: #000000;
+    transition: 0.5s;
+    color: #F27D52;
+}
+
+.oi{
+    background-color: rgba(0, 0, 0, 0.37);
     display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+input::placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.sec{
+    background-image: url(img/casaprincipal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.37);
+        width: 15%;
+        border-radius: 30px;
+        margin-top: 50px;
+        color: white;
+    }
+}
+
+.dd{
+    background-color: #F27D52;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    img{
+        padding-top: 5px;
+    }
+}
+.geralzao{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #F2A97E;
+    margin-bottom: 50px;
+}
+form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 80%;
+    label{
+        color: white;
+    }
+    input{
+        background-color: rgb(236, 236, 236) !important;
+    }
+}
+.but{
+    display: flex;
+    justify-content: center;
+    button{
+        width: 100%;
+    }
+}
+
+.ss{
+    width: 100%;
+    background-color: #F27D52;
+    color: white;
+}
+.endereco{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+.horario{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 15%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D06A45;
 }

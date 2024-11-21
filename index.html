@@ -1,33 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>PMO - IMOBILIÁRIA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <img src="/img/PMO.png" alt="Logo da PMO" width="100px">
+        <img src="img/Morp.png" alt="Logo da MORP" width="100px">
         <div>
-            <a href="">Home</a>
-            <a href="">Sobre</a>
-            <a href="">Serviços</a>
-            <a href="">Blog</a>
-            <a href="">Contato</a>
+            <a href=""><strong>Home</strong></a>
+            <a href=""><strong>Sobre</strong></a>
+            <a href=""><strong>Serviços</strong></a>
+            <a href=""><strong>Blog</strong></a>
+            <a href=""><strong>Contato</strong></a>
         </div>
     </header>
 
-    <main>
-        <div class="textoCentro">
-            <h1>Alugue ou compre um imóvel</h1>
-            <h2>Com a PMO!</h2>
-            <h3>Imóveis de qualidade só aqui!</h3>
-        </div>
-    </main>
+    <section class="um">
+        <main>
+            <div class="main container">
+                <h1><strong>Alugue ou compre um imóvel</strong></h1>
+                <h2><strong>Com a PMO!</strong></h2>
+                <h3><strong>Imóveis de qualidade só aqui!</strong></h3>
+            </div>
 
+            <div class="oi container mt-5 row d-flex flex-wrap p-3 rounded-pill">
+                <div class="style=--bs-bg-opacity: .5 d-flex col-md-6 col-lg-3 col-sm-9">
+                    <input class="bg-white rounded-pill text-center border-0" style="--bs-bg-opacity: .5" type="text"
+                        placeholder="Pretenção">
+                </div>
+                <div class="ps-3 style=--bs-bg-opacity: .5 d-flex col-md-6 col-lg-3 col-sm-9">
+                    <input class="bg-white rounded-pill text-center border-0" style="--bs-bg-opacity: .5" type="text"
+                        placeholder="Tipo de imóvel">
+                </div>
+                <div class="ps-3 style=--bs-bg-opacity: .5 d-flex col-md-6 col-lg-3 col-sm-9">
+                    <input class="bg-white rounded-pill text-center border-0" style="--bs-bg-opacity: .5" type="text"
+                        placeholder="Bairro, cidade ou região">
+                </div>
+                <div class="ps-3 col-md-6 col-lg-3 col-sm-9">
+                    <a class="bg-orange p-2 text-decoration-none text-wrap" href=""><strong>Encontrar imóvel</strong></a>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- CONCTACT SECTION -->
+    <section class="sec">
+        <h1><strong>Contate-nos!</strong></h1>
+        <div class="dd">
+            <img src="img/Morp.png" alt="Logo da MORP" width="50px">
+            <div class="geralzao">
+                <form class="row g-3">
+                    <div class="col-md-8 d-flex justify-content-center align-items-center w-100">
+                        <label for="inputEmail4" class="form-label"><strong>Nome completo</strong></label>
+                        <input type="text" class="form-control w-50 mx-3" id="inputEmail4">
+                    </div>
+                    <div class="col-md-8">
+                        <label for="inputEmail4" class="form-label"><strong>Telefone</strong></label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputPassword4" class="form-label"><strong>E-mail</strong></label>
+                        <input type="email" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="txtCep" class="form-label"><strong>CEP</strong></label>
+                        <input type="text" class="form-control" id="txtCep">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label"><strong>Cidade</strong></label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputRua" class="form-label"><strong>Rua</strong></label>
+                        <input type="text" class="form-control" id="inputRua">
+                    </div>
+                    <div class="but col-12">
+                        <button type="submit" class="bg-orange btn-primary"><strong>Enviar</strong></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="ss">
+            <div class="container row">
+                <div class="endereco col-6">
+                    <strong>
+                        <p>Principal</p>
+                        <br>
+                        <address>
+                            <p>Avenida dos boi, 456</p>
+                            <p>Centro</p>
+                            <p>Santa Bárbara d'Oeste-SP</p>
+                            <br>
+                            <p>(19) 97402-7918</p>
+                            <p>(19) 97402-7918</p>
+                            <p>(19) 97402-7918</p>
+                            <p>(19) 97402-7918</p>
+                    </strong>
+                    </address>
+                </div>
+                <div class="horario col-6">
+                    <p><strong>Horário de funcionamento: segunda à sexta-feira: 8:30 às 17:30 horas Sábados: 8:00 às
+                            11:00 horas</strong>
+                    </p>
+                </div>
+            </div>
+            <footer>
+                <img src="img/Morp.png" alt="Logo da MORP" width="50px">
+                <div class="img">
+                    <img src="img/insta.png" alt="Acesso para o Instagram" width="38px">
+                    <img src="img/zap.png" alt="Acesso para o WhatsApp" width="38px">
+                </div>
+                <img src="img/Morp.png" alt="Logo da MORP" width="50px">
+            </footer>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <script src="cep.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 
 </html>
