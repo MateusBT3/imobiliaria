@@ -1,0 +1,135 @@
+/* HEADER */
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcece4;
+}
+
+header {
+    background-color: #D06A45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        padding-left: 30px;
+    }
+
+    div {
+        padding-right: 100px;
+    }
+
+    a {
+        padding-left: 50px;
+        color: white;
+        text-decoration: none;
+        font-size: large;
+        font-size: larger;
+    }
+
+    a:hover {
+        color: black;
+        transition: 0.5s;
+    }
+}
+
+section{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #F2A97E;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.texto{
+    display: flex;
+}
+
+
+/* Estilo para o conteúdo principal */
+.texto {
+    margin: 20px;
+    padding: 20px;
+    background-color: #F27D52;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.texto img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+/* Títulos principais */
+h1 {
+    color: black;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+h2, h4 {
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* Estilos das seções de bairros */
+hr {
+    border: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+h2 br {
+    margin-bottom: 10px;
+}
+
+/* Vantagens */
+h2 strong {
+    font-weight: bold;
+}
+
+/* Seção de vantagens */
+h2 {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 50px;
+}
+
+ul {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 50px;
+}
+li{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-left: 50px;
+}
+h2 br {
+    margin-bottom: 5px;
+}
+
+/* Estilo de links */
+a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+.contBlog{
+    margin-left: 20px;
+}
+
+hr{
+    border-color: black;
+}
