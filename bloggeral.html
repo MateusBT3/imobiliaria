@@ -12,11 +12,12 @@
         .text-overlay {
             position: absolute;
             top: 85%;
-            left: 3%;
             font-size: 24px;
             font-weight: bold;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
             color: white;
+            justify-content: center;
+            text-align: center;
         }
 
         .news2 {
@@ -76,7 +77,10 @@
 
         .contImg {
             position: relative;
-            display: inline-block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
     </style>
 </head>
@@ -95,7 +99,7 @@
 
 
     <section class="container">
-        <article id="bolg" class="grupBlog">
+        <article id="bolg" class="grupBlog row">
             <div class="contImg">
                 <a href="blog.html"><img src="news1.jpg" alt="Primeira noticia"></a>
                 <div class="text-overlay">Top 10 melhores bairros de santa barbara do oeste</div>
