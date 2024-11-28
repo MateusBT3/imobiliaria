@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcece4;
+}
+header {
+    background-color: #D06A45;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        padding-left: 30px;
+    }
+
+    div {
+        padding-right: 100px;
+    }
+
+    a {
+        padding-left: 50px;
+        color: white;
+        text-decoration: none;
+        font-size: large;
+        font-size: larger;
+    }
+
+    a:hover {
+        color: black;
+        transition: 0.5s;
+    }
+}
+section{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #F2A97E;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+#carouselCasasAlugar{
+    padding-top: 50px;
+}
+#alugar{
+    padding-bottom: 50px;
+}
+#bolg{
+    padding-bottom: 50px;
+}
