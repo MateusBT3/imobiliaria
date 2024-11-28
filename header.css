@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #fcece4;
 }
+
 header {
     background-color: #D06A45;
     display: flex;
@@ -30,19 +31,23 @@ header {
         transition: 0.5s;
     }
 }
-section{
+
+section {
     margin-top: 50px;
     padding-top: 50px;
     background-color: #F2A97E;
     border-radius: 30px;
     margin-bottom: 50px;
 }
-#carouselCasasAlugar{
+
+#carouselCasasAlugar {
     padding-top: 50px;
 }
-#alugar{
+
+#alugar {
     padding-bottom: 50px;
 }
-#bolg{
+
+#bolg {
     padding-bottom: 50px;
 }

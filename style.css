@@ -37,7 +37,7 @@ header {
 }
 
 /* Home */
-.um{
+.um {
     background-image: url(img/casaprincipal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,16 +45,17 @@ header {
     height: calc(100vh - 69.36px);
 }
 
-main{ 
+main {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
     padding-top: calc(40vh - 69.36px);
-    
-}   
-.main{
+
+}
+
+.main {
     background-color: rgba(0, 0, 0, 0.37);
     padding-top: 5px;
     padding-bottom: 5px;
@@ -75,18 +76,19 @@ main{
     color: #F27D52;
 }
 
-.oi{
+.oi {
     background-color: rgba(0, 0, 0, 0.37);
     display: flex;
     justify-content: space-around;
     width: 70%;
 }
-input::placeholder{
+
+input::placeholder {
     color: #ffffff;
     font-size: 16px;
 }
 
-.sec{
+.sec {
     background-image: url(img/casaprincipal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +97,8 @@ input::placeholder{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    h1{
+
+    h1 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -109,7 +112,7 @@ input::placeholder{
     }
 }
 
-.dd{
+.dd {
     background-color: #F27D52;
     width: 50%;
     display: flex;
@@ -117,11 +120,13 @@ input::placeholder{
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    img{
+
+    img {
         padding-top: 5px;
     }
 }
-.geralzao{
+
+.geralzao {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -131,32 +136,38 @@ input::placeholder{
     background-color: #F2A97E;
     margin-bottom: 50px;
 }
-form{
+
+form {
     padding-top: 50px;
     padding-bottom: 50px;
     width: 80%;
-    label{
+
+    label {
         color: white;
     }
-    input{
+
+    input {
         background-color: rgb(236, 236, 236) !important;
     }
 }
-.but{
+
+.but {
     display: flex;
     justify-content: center;
-    button{
+
+    button {
         width: 100%;
     }
 }
 
-.ss{
+.ss {
     width: 100%;
     background-color: #F27D52;
     color: white;
     margin-top: 200px;
 }
-.endereco{
+
+.endereco {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -164,7 +175,8 @@ form{
     align-items: center;
     margin-left: 30%;
 }
-.horario{
+
+.horario {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,9 +185,38 @@ form{
     width: 15%;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #D06A45;
+}
+
+/* Sobre */
+
+.contSobre {
+    font-size: 24px;
+    font-size: x-large;
+
+}
+
+.sectionSobre {
+    padding: 50px;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 30px;
+}
+
+.pp {
+    background-image: url(img/casaprincipal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

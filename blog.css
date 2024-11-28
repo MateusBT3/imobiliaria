@@ -37,7 +37,7 @@ header {
     }
 }
 
-section{
+section {
     margin-top: 50px;
     padding-top: 50px;
     background-color: #F2A97E;
@@ -45,7 +45,7 @@ section{
     margin-bottom: 50px;
 }
 
-.texto{
+.texto {
     display: flex;
 }
 
@@ -72,7 +72,8 @@ h1 {
     margin-left: 50px;
 }
 
-h2, h4 {
+h2,
+h4 {
     color: #555;
     font-size: 1.2rem;
     margin-top: 10px;
@@ -111,11 +112,13 @@ ul {
     line-height: 1.5;
     margin-left: 50px;
 }
-li{
+
+li {
     font-size: 1rem;
     line-height: 1.5;
     margin-left: 50px;
 }
+
 h2 br {
     margin-bottom: 5px;
 }
@@ -126,10 +129,10 @@ a {
     text-decoration: none;
 }
 
-.contBlog{
+.contBlog {
     margin-left: 20px;
 }
 
-hr{
+hr {
     border-color: black;
 }
