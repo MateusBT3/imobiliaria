@@ -42,7 +42,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: calc(100vh - 69.36px);
+    min-height: calc(100vh - 69.36px);
 }
 
 main {
@@ -93,6 +93,7 @@ input::placeholder {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: calc(100vh - 69.36px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,4 +220,5 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: calc(100vh - 69.36px);
 }
