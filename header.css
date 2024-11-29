@@ -11,17 +11,8 @@ body {
 header {
     background-color: #D06A45;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
-    img {
-        padding-left: 30px;
-    }
-
-    div {
-        padding-right: 100px;
-    }
-
     a {
         padding-left: 50px;
         color: white;
